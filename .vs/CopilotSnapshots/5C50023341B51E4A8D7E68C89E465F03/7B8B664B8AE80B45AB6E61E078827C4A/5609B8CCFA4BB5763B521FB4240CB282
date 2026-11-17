@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+public int damage = 10;
+public class projectilemovement : MonoBehaviour
+{
+    public projectilemovement projectilePrefab;
+    public Vector2 velocity = new Vector2(0, 80);
+
+    void Start()
+    {
+        GetComponent<Rigidbody2D>().linearVelocity = velocity;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
+    void Update()
+    {
+        
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Player took " + damage + " damage!");
+        }
+    }
+}

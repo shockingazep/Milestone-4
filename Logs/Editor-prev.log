@@ -1,0 +1,424 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 39728)
+VBCSCompiler prewarm took 31.33 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ellio" at "2026-11-17T19:51:49.8891111Z"
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32189 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-17T19:51:49Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 45808, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              93791a0286ef45ab9016feefb6325b0a
+  Correlation Id:          d7103adff38555bc3b2cca7022e3d915
+  External correlation Id: 723496598049898144
+  Machine Id:              0clVxOmbRjNO0gTL6KJ2FAAWjpc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ellio" (connect: 0.00s, validation: 0.00s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ellio-notifications" at "2026-11-17T19:51:50.0282113Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token ogE44JLee_...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574458353417-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.16s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+C:\Users\ellio\Downloads\ContraAssets-v2 (1)
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-ellio
+-hubSessionId
+0846e4f0-f3ca-48d5-bf14-50d11537a4b1
+-accessToken
+ogE44JLee_0dUGVG6ID-vIm3IN-XzB97U_kkhcUIxmQ003f
+Successfully changed project path to: C:\Users\ellio\Downloads\ContraAssets-v2 (1)
+C:/Users/ellio/Downloads/ContraAssets-v2 (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [52468]  Target information:
+
+Player connection [52468]  * "[IP] 10.250.17.247 [Port] 55504 [Flags] 2 [Guid] 2087573898 [EditorId] 2087573898 [Version] 1048832 [Id] WindowsEditor(7,Elliot) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [52468] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [52468] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-8696" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 57ac95b12cab88dfb6195c07191d1266
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/ellio/Downloads/ContraAssets-v2 (1)[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ellio/Downloads/ContraAssets-v2 (1)/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.15.9201
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 11944 MB
+[D3D12 Device Filter] Processor Count: 24
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Ti Laptop GPU (ID=0x2f58)
+    Vendor:          NVIDIA
+    VRAM:            11944 MB
+    App VRAM Budget: 11176 MB
+    Driver:          32.0.15.9201
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.410416 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.344 seconds
+Domain Reload Profiling: 3799ms
+	BeginReloadAssembly (263ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (209ms)
+	initialDomainReloadingComplete (660ms)
+	LoadAllAssembliesAndSetupDomain (1314ms)
+		LoadAssemblies (279ms)
+		TypeCache.Refresh (1174ms)
+			TypeCache.ScanAssembly (983ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1347ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 43 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.38 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\ellio\Downloads\ContraAssets-v2 (1)\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ellio/Downloads/ContraAssets-v2 (1)
+ExitCode: 0 Duration: 0s595ms
+[209/223    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[219/223    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[220/223    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 148 defines and 290 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[221/223    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[222/223    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.54 seconds), 5 items updated, 223 evaluated
+AssetDatabase: script compilation time: 1.302988s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 1331ms
+	BeginReloadAssembly (315ms)
+		DisableScriptedObjects (43ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (485ms)
+		TypeCache.Refresh (15ms)
+			TypeCache.ScanAssembly (8ms)
+		AnalyzeDomain (6ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (458ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Starting new worker id: 0 with log in C:/Users/ellio/Downloads/ContraAssets-v2 (1)/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=0e0ed41f83f13fe45ac72cccdb3eea6f): Total: 3.201 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=898 ms
+		Asset DB Callback time: managed=45 ms, native=30 ms
+		Scripting: domain reloads=1, domain reload time=905 ms, compile time=1308 ms, other=12 ms
+		Project Asset Count: scripts=194, non-scripts=142
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 32.332ms
+	ApplyChangesToAssetFolders: 0.515ms
+	Scan: 106.233ms
+	Collect global state as custom dependencies: 11.860ms
+	CategorizeScriptCompilationAssets: 53.043ms
+	ProcessAssetsWithTransientArtifactChanges: 4.274ms
+	CategorizeAssets: 3.870ms
+	CompileScripts: 1307.679ms
+	ImportOutOfDateAssets: 469.417ms (458.959ms without children)
+		UnloadImportedAssets: 0.085ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.064ms
+		ImportSchedulerStart: 10.305ms
+	PostProcessAllAssets: 45.479ms
+		MonoPostProcessAllAssets: 45.385ms
+			SyncVS.PostprocessSyncProject 24.759ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.284ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.045ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.006ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.443ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.429ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.324ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.125ms
+	UnloadStreamsBegin: 1.507ms
+	GenerateScriptTypeHashes: 1.297ms
+	GenerateScriptTypeSerializationHashes: 2.952ms
+	Untracked: 1141.169ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 2.895ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ContraAssets-v2 (1)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/fml.unity'
+	Deserialize:            31.145 ms
+	Integration:            35.780 ms
+	Integration of assets:  8.404 ms
+	Thread Wait Time:       0.759 ms
+	Total Operation Time:   76.088 ms
+Unloading 583 unused Assets / (0.6 MB). Loaded Objects now: 1736.
+Memory consumption went from 251.7 MB to 251.1 MB.
+Total: 5.055200 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.054500 ms MarkObjects: 4.283000 ms  DeleteObjects: 0.341900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\ellio\Downloads\ContraAssets-v2 (1)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ellio/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 12.298 seconds
+	Project init time: 				10.930 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.243 seconds
+		Asset Database init time: 		0.797 seconds
+		Global illumination init time: 	0.026 seconds
+		Assemblies load time: 			3.890 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	3.201 seconds
+	Scene opening time: 			1.048 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794945122127,"processId":8696,"projectLoad":12.297589,"projectInit":10.9301798,"templateInit":0.0,"packageManagerInit":0.2431773,"assetDatabaseInit":0.7973907,"globalIlluminationInit":0.0260006,"assembliesLoad":3.8899247,"unityExtensionsInit":0.0025003,"assetDatabaseRefresh":3.2011467,"sceneOpening":1.0476164}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794945122127,"processId":8696,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=4d16142fe89c71340abf96358e0724bf): Total: 0.039 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/ellio/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.024s, timestamps: [13.249 - 13.273]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "ogE44JLe"... (expires: 2026-11-17T21:50:52Z)
+Starting new worker id: 1 with log in C:/Users/ellio/Downloads/ContraAssets-v2 (1)/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 8802d87d892bdf94b88d7e670d9bbab3 - Path: Assets/projectilemovement2.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '13c603b76e2efb2089b536b6f0eeaecd') in 0.0716141 seconds
+Starting new worker id: 2 with log in C:/Users/ellio/Downloads/ContraAssets-v2 (1)/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 1d1bd10be6641f7439564dcb0e45d9f1 - Path: Assets/projectilemovement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a4d645c200d0048a3dce6db7312ae42') in 0.0033673 seconds
+[Worker0] Imported GUID: 740bf8a14ac60c345a074e346a7a38e0 - Path: Assets/playerhealth.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c423e3d2f0389fe3489ac0490e8b21de') in 0.0014403 seconds
+[Worker0] Imported GUID: a1a9dd5cef01e6d439a92db0d757c142 - Path: Assets/fml.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a521994284a3add87206d15be54c1794') in 0.0039311 seconds
+[Worker0] Imported GUID: f7c0b2763406de54981848da6c20cbdd - Path: Assets/Enemy2health.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7e1f47eb77678d518d22b6e7ae8a6209') in 0.0013421 seconds
+[Worker0] Imported GUID: 601a98d9b06fc8b4ca9b15a99101562c - Path: Assets/moveforward.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a33300607f707e4444df7d9d8955e281') in 0.0011171 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+Asset Pipeline Refresh (id=b18b26bf1e372404cb9b929c7902e535): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f4d594d962abfcc4ab863b837ef09cdf): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=9a888b43beaf8e544a5333dd2b7823a0): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=88b13e1c70c541f42841d43c83980e39): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b5f163be8d38f4c43beb27a20e8ea327): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=17d84a2368e446a42a3e7f49a576295f): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker2] Imported GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter -> (ImportResultId: 'e7deeb2551deae0121fd5a6b039aae71') in 0.0134096 seconds
+Importing 'GUID: acae4fd2e793ca2479099f6197c40e06 - Path: Assets/start.unity' with importer (DefaultImporter)
+Imported 'GUID: acae4fd2e793ca2479099f6197c40e06' -> (Import Result ID: '51ca7b9e713ac69d4e80ae20a834a2fe') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=96fcede99f21aa0d70e332da549f755e DependenciesID=9c6cf3a6d0e90d0f408d1e50dc3a7f80 StaticDependenciesID=b29e42631707a4fe272ebb8df639f26e 
+Asset Pipeline Refresh (id=823426b05798f7740b3b28434a26363b): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: acae4fd2e793ca2479099f6197c40e06 - Path: Assets/start.unity - Importer: PreviewImporter -> (ImportResultId: 'f4076a73a0849a82e2f251413fa2cf63') in 0.0029695 seconds
+[Worker2] Imported GUID: acae4fd2e793ca2479099f6197c40e06 - Path: Assets/start.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '318c85cfb28e4590de263922c64aa209') in 0.0996769 seconds
+Importing 'GUID: a1a9dd5cef01e6d439a92db0d757c142 - Path: Assets/fml.unity' with importer (DefaultImporter)
+Imported 'GUID: a1a9dd5cef01e6d439a92db0d757c142' -> (Import Result ID: '159c09eb9e5a396a9889f729b8fabb9e') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=df87f5f949fbc7b56e32e004f1912872 DependenciesID=816e1a499779b31af471ca4d55d9673d StaticDependenciesID=2fe987790f675b2dd2061d57937911ee 
+Asset Pipeline Refresh (id=8703a1bb017e8ed45869456edeac62d4): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/start.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/start.unity'
+	Deserialize:            0.847 ms
+	Integration:            24.170 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   25.042 ms
+Unloading 131 unused Assets / (17.4 MB). Loaded Objects now: 2576.
+Memory consumption went from 466.9 MB to 449.5 MB.
+Total: 21.147000 ms (FindLiveObjects: 0.479400 ms CreateObjectMapping: 0.024300 ms MarkObjects: 14.714800 ms  DeleteObjects: 5.713400 ms)
+
+[Worker2] Imported GUID: a1a9dd5cef01e6d439a92db0d757c142 - Path: Assets/fml.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d042344503e9db1ea9c8f460d3a26d5') in 0.0065412 seconds
+Asset Pipeline Refresh (id=c8ce2ba0980a6154dbbf73026bea38ef): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8f872657fe2f7fb4fa80071fa6de2517): Total: 0.026 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 6803; Successful remaps: 1538
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\ellio\Downloads\ContraAssets-v2 (1)\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ellio/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ellio-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ellio channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000087F8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006274, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000087F8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006274, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5472
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794945651528,"processId":8696,"allocatedMemory":12318462,"memoryLabels":[{"Default":192659},{"Permanent":15516},{"NewDelete":77745},{"Thread":4206624},{"Manager":37736},{"VertexData":8},{"Geometry":816},{"Shader":854402},{"Material":24},{"TextureCache":15808},{"GfxDevice":74472},{"GfxThread":3072},{"Animation":952},{"Audio":408},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":192632},{"Input":42840},{"JobScheduler":256},{"TextLib":31702},{"Mono":48},{"ScriptingNativeRuntime":1227112},{"BaseObject":49712},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":40112},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":309329},{"StaticString":3808},{"Utility":2676082},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":8984},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":19913},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":1069959},{"EditorUtility":160062},{"VersionControl":8},{"Undo":931},{"AssetDatabase":443754},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36918},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}
